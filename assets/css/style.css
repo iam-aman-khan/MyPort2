@@ -862,7 +862,20 @@ section {
   transition: 0.4s;
   border-radius: 4px;
 }
+
+.contact .texts-center button[type=submit] {
+  background: #149ddd;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
 .contact .php-email-form button[type=submit]:hover {
+  background: #37b3ed;
+}
+
+.contact .texts-center button[type=submit]:hover {
   background: #37b3ed;
 }
 @-webkit-keyframes animate-loading {
@@ -951,4 +964,24 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+form{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  
+}
+
+form input , form textarea{
+  border: 0;
+  margin: 20px;
+  padding: 25px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 20px;
 }
